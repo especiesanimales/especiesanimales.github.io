@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+body{
+    background-image: url(https://img.freepik.com/vector-premium/fondo-mar-videoconferencia_23-2148631702.jpg);
+    background-size: cover;
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(88, 126, 125);
+    font-size: 30px;
+    margin-top: 50px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: rgb(100, 176, 203);
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 138px;
+    background-color:rgb(51, 82, 90);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: rgb(109, 109, 228);
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15 px 15px 15px;
+}

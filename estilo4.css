@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    width: 700px;
+    height: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 7;
+    transition: .5s aese;
+    border-radius: 15%;
+}
+section img:hover{
+    cursor: default;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(100%);
+}

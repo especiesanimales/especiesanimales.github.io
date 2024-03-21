@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    width: 500px;
+    height: 250px;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: .5s aese;
+    border-radius: 10%;
+}
+section img:hover{
+    cursor: default;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
